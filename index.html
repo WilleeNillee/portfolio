@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="willowlight.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Template by W3.CSS</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="willowlight.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <!--
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      
+      <button class="w3-button w3-white"></i>Best of</button>
+      
+      <button class="w3-button w3-white w3-hide-small"></i>102 Art</button>
+      <button class="w3-button w3-white w3-hide-small"></i>171 Art</button>
+      <button class="w3-button w3-white w3-hide-small"></i>Personal Art</button>
+    </div>-->
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <h2>Best of</h2>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="perspectiveyay.png" alt="box1" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Perspective Sidewalk</b></p>
+        <p> For this project, we had to create 
+          a piece using perspective. Essentially, 
+          we had to repeat some visual element at 
+          smaller and smaller intervals to create 
+          a believable sense of depth. I created 
+          this process by adding a sidewalk with each
+           part getting smaller as it gets farther 
+           away. You can also see this in the grass.
+            The blades get smaller and less detailed
+             the farther away.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="INSTRUCTION MANUAL.png" alt="box2" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Instruction Manual</b></p>
+        <p> For this project, we had to create an instruction manual for a piece of media.
+           I picked The PowerPuff Girls because the intro is literally instructions. 
+           The manuals usually had a character explaining the instructions, so I just
+            put the professor since he created the girls. I used vector in photoshop 
+            to create everything for this project. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="MONEY2.png" alt="box3" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Peacock Currency</b></p>
+        <p>For this piece, we had to imagine a world where animals replaced humans 
+          in a social situation, and we had to create currency for said animal.
+           I picked peacocks, because I think if they were like humans, they
+            would be egotistical and think they deserve to rule. I didn’t really
+             have a goal with this one, but I’m really happy with how it turned 
+             out! I had to use a bunch of overlays and the hue and saturation
+              adjustment, which was difficult to get correct.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <h2>Arts 102</h2>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="radial.png" alt="box4" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Radial Dogs</b></p>
+        <p>For this project, we had to create radial symmetry, which is a 
+          type of symmetry where similar parts are arranged in a circular 
+          fashion around a central axis. I achieved this by arranging puppies
+          in a circular fashion around a piece of bacon, like they're worshipping
+          their favorite treat.
+          
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="symmetry.png" alt="box5" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Symmetry</b></p>
+        <p>We had to create a piece that includes symmetry, which is when both 
+          sides of the canvas are exactly the same. I achieved this by creating
+          identical girls with cat heads. I wanted them to have same vibes as the 
+          creepy twins from The Shining. They also have cats on their dresses, 
+          which I think is really cute.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="saturation collage.png" alt="box6" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Saturation</b></p>
+        <p>This was an assignment that we had to do on Photoshop to show our editing skills.
+          We duplicated the same picture 6 times and changed the saturation for each of them
+          to create this fun collage thing.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+    <h2>Arts 171</h2>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="propaganda.png" alt="box4" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Propaganda Poster</b></p>
+        <p>We had to create a propaganda poster based on a piece of media.
+          I decided to create a poster based on The Lorax, specifically the Onceler.
+          Everthing, except the text, was created with vector in Photoshop.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="skillsUSA.png" alt="box5" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>SKillsUSA</b></p>
+        <p>This was my design for the SkillsUSA 2025 competition that we had to make
+          for the class even if we weren't entering into the competition. I did
+          enter my design into the competition and had to give a 5 minute presentation
+          on how my design represents Michigan, my process in making it, and why 
+          mine should be picked. My design got second place!
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="idiom 1.png" alt="box6" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Idiom</b></p>
+        <p> For this project, we had to create a color idiom in Photoshop
+           and make it literal. An idiom is an expression that shouldn’t 
+           be taken literally, like how mine is “feeling blue” which usually
+            means feeling sad. I did Blue Diamond from Steven Universe, who
+            is a blue entity that can force her feelings onto others. 
+            I thought this was perfect, since Blue is blue and she’s 
+            lways sad. I had to use vector, hue and saturation 
+            adjustments, and shading for this project.</p>
+      </div>
+    </div>
+  </div>
+<!-- Fourth Photo Grid-->
+<div class="w3-row-padding">
+  <h2>Personal Art</h2>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Emerald Gaze.png" alt="box4" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Emerald Gaze</b></p>
+      <p>This was a piece I did for my high school art class. We had to
+        draw a part of the skeleton and use complimentary colors. Since I had
+        already taken this class, I could just do whatever colors I wanted.
+        I did use complimentary colors for the background and eyes though, along 
+        with the many other colors that go well with this art. I drew everything 
+        colored pencil.
+      </p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="Crimson Worry.png" alt="box5" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Crimson Worry</b></p>
+      <p>This is also another piece I did entirely with colored pencil. This was one of
+        those projects where I could do whatever I wanted. The emotion evolved over time and
+        it looked like they were worried about something, so I added sweat drops. The bright
+        red hair, yellow background, and blue drops are meant to make this piece based
+        on primary colors.
+      </p>
+    </div>
+  </div>
+  <div class="w3-third w3-container">
+    <img src="Blue Somber.png" alt="box6" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Blue Somber</b></p>
+      <p>Blue Somber was one of the first mixed media pieces I did. It contains water color,
+        acrylic paint, and colored pencil. I wanted to add "imperfections" to this piece
+        because I think they're beautiful. For example, I added a bumpy nose, small lips, a 
+        tooth gap, downturned eyes, bushy eyebrows, and eye bags. I thought she looked a little
+        sad about something, so that's where she got her name from.
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="dream.png" alt="box1" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Nightmare</b></p>
+      <p>This piece was for a high school assignment where we had to
+        create a dream or nightmare. I created a nightmare that I had 
+        experienced where I was sinking underwater and saw a huge lady
+        with long, flowing hair. I created this in Procreate.
+      </p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="moonsun.png" alt="box2" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Emblem</b></p>
+      <p>This was also done in Procreate. We had to create a logo for ourselves
+        that include things that symbolize us. I added the sun and moon because my
+      dad and I love to look at up at the stars. I added a music note in the middle,
+    because I love music and it's such a huge part of my life. Finally, I added a 
+  lot of blue, because blue has always been my favorite color.  </p>
+    </div>
+  </div>
+<div class="w3-third w3-container">
+  <img src="muscles.png" alt="box3" style="width:100%" class="w3-hover-opacity">
+  <div class="w3-container w3-white">
+    <p><b>Anatomy</b></p>
+    <p>This was a piece I did to practice anatomy, mainly back muscles. I like how 
+      it turned out. I originally made it in grayscale and then I added 
+      gradient maps. I adjusted these colors until I liked the result.
+    </p>
+  </div>
+</div>
+
+
+<!-- Images of Me -->
+<div class="w3-row-padding w3-padding-16" id="about">
+  <div class="w3-col m6">
+    <img src="MEEE.png" alt="Me" style="width:100%">
+  </div>
+  <div class="w3-col m6">
+    <img src="willow2.png" alt="Me" style="width:100%">
+  </div>
+</div>
+
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+  <h4><b>About Me</b></h4>
+  <p>Hello! My name is Willow Patterson. I am an inspiring artist enrolled in the Digital Media and Design course at the Eaton Resa Career Preparation Center available through Lansing Community College. I have been interested in art my whole life, and would love to make this the thing I do everyday.</p>
+  <hr>
+  <!-- Pagination 
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+-->
+ 
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>willowp0728@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Michigan, US</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>517-763-3430</p>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-snapchat w3-hover-opacity" style="width:100%"></i></p>
+        <p>willowpatter708</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-pinterest-p w3-hover-opacity"></i></p>
+        <p>oT0mb</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-linkedin w3-hover-opacity"></i></p>
+        <p>willowp07282022
+          @gmail.com</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+       
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+     
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+    
+  
